@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B80CA342184FA5100C2809F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA332184FA5100C2809F /* AppDelegate.swift */; };
+		6B80CA362184FA5100C2809F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA352184FA5100C2809F /* ViewController.swift */; };
+		6B80CA392184FA5100C2809F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA372184FA5100C2809F /* Main.storyboard */; };
+		6B80CA3B2184FA5200C2809F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA3A2184FA5200C2809F /* Assets.xcassets */; };
+		6B80CA3E2184FA5200C2809F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA3C2184FA5200C2809F /* LaunchScreen.storyboard */; };
+		6B80CA492184FA5200C2809F /* remoteokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA482184FA5200C2809F /* remoteokTests.swift */; };
+		6B80CA542184FA5200C2809F /* remoteokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA532184FA5200C2809F /* remoteokUITests.swift */; };
+		6B80CA6F2184FFFD00C2809F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA642184FFFD00C2809F /* Nunito-ExtraLightItalic.ttf */; };
+		6B80CA702184FFFD00C2809F /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA652184FFFD00C2809F /* Nunito-Regular.ttf */; };
+		6B80CA712184FFFD00C2809F /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA662184FFFD00C2809F /* Nunito-ExtraBoldItalic.ttf */; };
+		6B80CA722184FFFD00C2809F /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA672184FFFD00C2809F /* Nunito-Italic.ttf */; };
+		6B80CA732184FFFD00C2809F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA682184FFFD00C2809F /* Pacifico-Regular.ttf */; };
+		6B80CA742184FFFD00C2809F /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA692184FFFD00C2809F /* Nunito-SemiBoldItalic.ttf */; };
+		6B80CA752184FFFD00C2809F /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA6A2184FFFD00C2809F /* Nunito-SemiBold.ttf */; };
+		6B80CA762184FFFD00C2809F /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA6B2184FFFD00C2809F /* Nunito-ExtraBold.ttf */; };
+		6B80CA772184FFFD00C2809F /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA6C2184FFFD00C2809F /* Nunito-ExtraLight.ttf */; };
+		6B80CA782184FFFD00C2809F /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA6D2184FFFD00C2809F /* Nunito-LightItalic.ttf */; };
+		6B80CA792184FFFD00C2809F /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA6E2184FFFD00C2809F /* Nunito-Light.ttf */; };
+		6B80CA7E2185000800C2809F /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA7A2185000800C2809F /* Nunito-Bold.ttf */; };
+		6B80CA7F2185000800C2809F /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA7B2185000800C2809F /* Nunito-BlackItalic.ttf */; };
+		6B80CA802185000800C2809F /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA7C2185000800C2809F /* Nunito-Black.ttf */; };
+		6B80CA812185000800C2809F /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B80CA7D2185000800C2809F /* Nunito-BoldItalic.ttf */; };
+		6B80CA83218501C800C2809F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA82218501C800C2809F /* Helpers.swift */; };
+		6B80CA852185048100C2809F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B80CA842185048100C2809F /* HomeViewController.swift */; };
+		6BE5B93722079CAA009170B3 /* IKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5B93622079CAA009170B3 /* IKRequest.swift */; };
+		9B090802E817A1BC0F79B4AB /* Pods_remoteok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E725E8D0538DE69A061EA7F /* Pods_remoteok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B80CA452184FA5200C2809F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B80CA282184FA5100C2809F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B80CA2F2184FA5100C2809F;
+			remoteInfo = remoteok;
+		};
+		6B80CA502184FA5200C2809F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B80CA282184FA5100C2809F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B80CA2F2184FA5100C2809F;
+			remoteInfo = remoteok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B80CA302184FA5100C2809F /* remoteok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remoteok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B80CA332184FA5100C2809F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B80CA352184FA5100C2809F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B80CA382184FA5100C2809F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B80CA3A2184FA5200C2809F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B80CA3D2184FA5200C2809F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B80CA3F2184FA5200C2809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B80CA442184FA5200C2809F /* remoteokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remoteokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B80CA482184FA5200C2809F /* remoteokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remoteokTests.swift; sourceTree = "<group>"; };
+		6B80CA4A2184FA5200C2809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B80CA4F2184FA5200C2809F /* remoteokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remoteokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B80CA532184FA5200C2809F /* remoteokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remoteokUITests.swift; sourceTree = "<group>"; };
+		6B80CA552184FA5200C2809F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B80CA642184FFFD00C2809F /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA652184FFFD00C2809F /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		6B80CA662184FFFD00C2809F /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA672184FFFD00C2809F /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		6B80CA682184FFFD00C2809F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		6B80CA692184FFFD00C2809F /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA6A2184FFFD00C2809F /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		6B80CA6B2184FFFD00C2809F /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6B80CA6C2184FFFD00C2809F /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6B80CA6D2184FFFD00C2809F /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA6E2184FFFD00C2809F /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		6B80CA7A2185000800C2809F /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		6B80CA7B2185000800C2809F /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA7C2185000800C2809F /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		6B80CA7D2185000800C2809F /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6B80CA82218501C800C2809F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6B80CA842185048100C2809F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6BE5B93622079CAA009170B3 /* IKRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKRequest.swift; sourceTree = "<group>"; };
+		7E725E8D0538DE69A061EA7F /* Pods_remoteok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_remoteok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		877E8CF142E9DFB367309645 /* Pods-remoteok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remoteok.release.xcconfig"; path = "Pods/Target Support Files/Pods-remoteok/Pods-remoteok.release.xcconfig"; sourceTree = "<group>"; };
+		E469EA4A3BAB514BEDB6F26B /* Pods-remoteok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-remoteok.debug.xcconfig"; path = "Pods/Target Support Files/Pods-remoteok/Pods-remoteok.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B80CA2D2184FA5100C2809F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B090802E817A1BC0F79B4AB /* Pods_remoteok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA412184FA5200C2809F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA4C2184FA5200C2809F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385EB71624455F0CC06B88B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E469EA4A3BAB514BEDB6F26B /* Pods-remoteok.debug.xcconfig */,
+				877E8CF142E9DFB367309645 /* Pods-remoteok.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B80CA272184FA5100C2809F = {
+			isa = PBXGroup;
+			children = (
+				6B80CA632184FF8C00C2809F /* fonts */,
+				6B80CA322184FA5100C2809F /* remoteok */,
+				6B80CA472184FA5200C2809F /* remoteokTests */,
+				6B80CA522184FA5200C2809F /* remoteokUITests */,
+				6B80CA312184FA5100C2809F /* Products */,
+				385EB71624455F0CC06B88B1 /* Pods */,
+				C295948BAC33C669CCBD75EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B80CA312184FA5100C2809F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B80CA302184FA5100C2809F /* remoteok.app */,
+				6B80CA442184FA5200C2809F /* remoteokTests.xctest */,
+				6B80CA4F2184FA5200C2809F /* remoteokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B80CA322184FA5100C2809F /* remoteok */ = {
+			isa = PBXGroup;
+			children = (
+				6BE5B93522079C96009170B3 /* http */,
+				6B80CA332184FA5100C2809F /* AppDelegate.swift */,
+				6B80CA352184FA5100C2809F /* ViewController.swift */,
+				6B80CA372184FA5100C2809F /* Main.storyboard */,
+				6B80CA3A2184FA5200C2809F /* Assets.xcassets */,
+				6B80CA3C2184FA5200C2809F /* LaunchScreen.storyboard */,
+				6B80CA3F2184FA5200C2809F /* Info.plist */,
+				6B80CA82218501C800C2809F /* Helpers.swift */,
+				6B80CA842185048100C2809F /* HomeViewController.swift */,
+			);
+			path = remoteok;
+			sourceTree = "<group>";
+		};
+		6B80CA472184FA5200C2809F /* remoteokTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B80CA482184FA5200C2809F /* remoteokTests.swift */,
+				6B80CA4A2184FA5200C2809F /* Info.plist */,
+			);
+			path = remoteokTests;
+			sourceTree = "<group>";
+		};
+		6B80CA522184FA5200C2809F /* remoteokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B80CA532184FA5200C2809F /* remoteokUITests.swift */,
+				6B80CA552184FA5200C2809F /* Info.plist */,
+			);
+			path = remoteokUITests;
+			sourceTree = "<group>";
+		};
+		6B80CA632184FF8C00C2809F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6B80CA7C2185000800C2809F /* Nunito-Black.ttf */,
+				6B80CA7B2185000800C2809F /* Nunito-BlackItalic.ttf */,
+				6B80CA7A2185000800C2809F /* Nunito-Bold.ttf */,
+				6B80CA7D2185000800C2809F /* Nunito-BoldItalic.ttf */,
+				6B80CA6B2184FFFD00C2809F /* Nunito-ExtraBold.ttf */,
+				6B80CA662184FFFD00C2809F /* Nunito-ExtraBoldItalic.ttf */,
+				6B80CA6C2184FFFD00C2809F /* Nunito-ExtraLight.ttf */,
+				6B80CA642184FFFD00C2809F /* Nunito-ExtraLightItalic.ttf */,
+				6B80CA672184FFFD00C2809F /* Nunito-Italic.ttf */,
+				6B80CA6E2184FFFD00C2809F /* Nunito-Light.ttf */,
+				6B80CA6D2184FFFD00C2809F /* Nunito-LightItalic.ttf */,
+				6B80CA652184FFFD00C2809F /* Nunito-Regular.ttf */,
+				6B80CA6A2184FFFD00C2809F /* Nunito-SemiBold.ttf */,
+				6B80CA692184FFFD00C2809F /* Nunito-SemiBoldItalic.ttf */,
+				6B80CA682184FFFD00C2809F /* Pacifico-Regular.ttf */,
+			);
+			name = fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6BE5B93522079C96009170B3 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				6BE5B93622079CAA009170B3 /* IKRequest.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		C295948BAC33C669CCBD75EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E725E8D0538DE69A061EA7F /* Pods_remoteok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B80CA2F2184FA5100C2809F /* remoteok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B80CA582184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteok" */;
+			buildPhases = (
+				6A39496DD6C20A16538E5902 /* [CP] Check Pods Manifest.lock */,
+				6B80CA2C2184FA5100C2809F /* Sources */,
+				6B80CA2D2184FA5100C2809F /* Frameworks */,
+				6B80CA2E2184FA5100C2809F /* Resources */,
+				51C126C156A85B13377D7557 /* [CP] Embed Pods Frameworks */,
+				5EBE48F27EAD4D0BA40C7508 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = remoteok;
+			productName = remoteok;
+			productReference = 6B80CA302184FA5100C2809F /* remoteok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B80CA432184FA5200C2809F /* remoteokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B80CA5B2184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteokTests" */;
+			buildPhases = (
+				6B80CA402184FA5200C2809F /* Sources */,
+				6B80CA412184FA5200C2809F /* Frameworks */,
+				6B80CA422184FA5200C2809F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B80CA462184FA5200C2809F /* PBXTargetDependency */,
+			);
+			name = remoteokTests;
+			productName = remoteokTests;
+			productReference = 6B80CA442184FA5200C2809F /* remoteokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B80CA4E2184FA5200C2809F /* remoteokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B80CA5E2184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteokUITests" */;
+			buildPhases = (
+				6B80CA4B2184FA5200C2809F /* Sources */,
+				6B80CA4C2184FA5200C2809F /* Frameworks */,
+				6B80CA4D2184FA5200C2809F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B80CA512184FA5200C2809F /* PBXTargetDependency */,
+			);
+			name = remoteokUITests;
+			productName = remoteokUITests;
+			productReference = 6B80CA4F2184FA5200C2809F /* remoteokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B80CA282184FA5100C2809F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = vikm;
+				TargetAttributes = {
+					6B80CA2F2184FA5100C2809F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6B80CA432184FA5200C2809F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B80CA2F2184FA5100C2809F;
+					};
+					6B80CA4E2184FA5200C2809F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B80CA2F2184FA5100C2809F;
+					};
+				};
+			};
+			buildConfigurationList = 6B80CA2B2184FA5100C2809F /* Build configuration list for PBXProject "remoteok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B80CA272184FA5100C2809F;
+			productRefGroup = 6B80CA312184FA5100C2809F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B80CA2F2184FA5100C2809F /* remoteok */,
+				6B80CA432184FA5200C2809F /* remoteokTests */,
+				6B80CA4E2184FA5200C2809F /* remoteokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B80CA2E2184FA5100C2809F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80CA762184FFFD00C2809F /* Nunito-ExtraBold.ttf in Resources */,
+				6B80CA7E2185000800C2809F /* Nunito-Bold.ttf in Resources */,
+				6B80CA702184FFFD00C2809F /* Nunito-Regular.ttf in Resources */,
+				6B80CA3E2184FA5200C2809F /* LaunchScreen.storyboard in Resources */,
+				6B80CA772184FFFD00C2809F /* Nunito-ExtraLight.ttf in Resources */,
+				6B80CA3B2184FA5200C2809F /* Assets.xcassets in Resources */,
+				6B80CA742184FFFD00C2809F /* Nunito-SemiBoldItalic.ttf in Resources */,
+				6B80CA752184FFFD00C2809F /* Nunito-SemiBold.ttf in Resources */,
+				6B80CA802185000800C2809F /* Nunito-Black.ttf in Resources */,
+				6B80CA392184FA5100C2809F /* Main.storyboard in Resources */,
+				6B80CA792184FFFD00C2809F /* Nunito-Light.ttf in Resources */,
+				6B80CA782184FFFD00C2809F /* Nunito-LightItalic.ttf in Resources */,
+				6B80CA812185000800C2809F /* Nunito-BoldItalic.ttf in Resources */,
+				6B80CA6F2184FFFD00C2809F /* Nunito-ExtraLightItalic.ttf in Resources */,
+				6B80CA732184FFFD00C2809F /* Pacifico-Regular.ttf in Resources */,
+				6B80CA722184FFFD00C2809F /* Nunito-Italic.ttf in Resources */,
+				6B80CA712184FFFD00C2809F /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				6B80CA7F2185000800C2809F /* Nunito-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA422184FA5200C2809F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA4D2184FA5200C2809F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51C126C156A85B13377D7557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-remoteok/Pods-remoteok-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-remoteok/Pods-remoteok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EBE48F27EAD4D0BA40C7508 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-remoteok/Pods-remoteok-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-remoteok/Pods-remoteok-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A39496DD6C20A16538E5902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-remoteok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B80CA2C2184FA5100C2809F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80CA362184FA5100C2809F /* ViewController.swift in Sources */,
+				6B80CA83218501C800C2809F /* Helpers.swift in Sources */,
+				6B80CA342184FA5100C2809F /* AppDelegate.swift in Sources */,
+				6B80CA852185048100C2809F /* HomeViewController.swift in Sources */,
+				6BE5B93722079CAA009170B3 /* IKRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA402184FA5200C2809F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80CA492184FA5200C2809F /* remoteokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80CA4B2184FA5200C2809F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B80CA542184FA5200C2809F /* remoteokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B80CA462184FA5200C2809F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B80CA2F2184FA5100C2809F /* remoteok */;
+			targetProxy = 6B80CA452184FA5200C2809F /* PBXContainerItemProxy */;
+		};
+		6B80CA512184FA5200C2809F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B80CA2F2184FA5100C2809F /* remoteok */;
+			targetProxy = 6B80CA502184FA5200C2809F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B80CA372184FA5100C2809F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B80CA382184FA5100C2809F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B80CA3C2184FA5200C2809F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B80CA3D2184FA5200C2809F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B80CA562184FA5200C2809F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B80CA572184FA5200C2809F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B80CA592184FA5200C2809F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E469EA4A3BAB514BEDB6F26B /* Pods-remoteok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B80CA5A2184FA5200C2809F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877E8CF142E9DFB367309645 /* Pods-remoteok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B80CA5C2184FA5200C2809F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/remoteok.app/remoteok";
+			};
+			name = Debug;
+		};
+		6B80CA5D2184FA5200C2809F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/remoteok.app/remoteok";
+			};
+			name = Release;
+		};
+		6B80CA5F2184FA5200C2809F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = remoteok;
+			};
+			name = Debug;
+		};
+		6B80CA602184FA5200C2809F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DM8HLVZFDB;
+				INFOPLIST_FILE = remoteokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vikm.co.remoteokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = remoteok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B80CA2B2184FA5100C2809F /* Build configuration list for PBXProject "remoteok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80CA562184FA5200C2809F /* Debug */,
+				6B80CA572184FA5200C2809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B80CA582184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80CA592184FA5200C2809F /* Debug */,
+				6B80CA5A2184FA5200C2809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B80CA5B2184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80CA5C2184FA5200C2809F /* Debug */,
+				6B80CA5D2184FA5200C2809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B80CA5E2184FA5200C2809F /* Build configuration list for PBXNativeTarget "remoteokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B80CA5F2184FA5200C2809F /* Debug */,
+				6B80CA602184FA5200C2809F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B80CA282184FA5100C2809F /* Project object */;
+}

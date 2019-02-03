@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../fonts/Nunito-Black.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-BlackItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-Bold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-BoldItalic.ttf">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "fuentes">
+   </Group>
+   <FileRef
+      location = "group:../fonts/Nunito-ExtraBold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-ExtraBoldItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-ExtraLight.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-ExtraLightItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-Italic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-Light.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-LightItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-Regular.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-SemiBold.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Nunito-SemiBoldItalic.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../fonts/Pacifico-Regular.ttf">
+   </FileRef>
+   <FileRef
+      location = "self:remoteok.xcodeproj">
+   </FileRef>
+</Workspace>
