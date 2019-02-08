@@ -39,6 +39,7 @@ class HomeViewController: UIViewController ,UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         IKRequest.request(endpoint: "", post: nil) { (response, status_code) in
             
             // error interno
@@ -56,8 +57,9 @@ class HomeViewController: UIViewController ,UITableViewDelegate, UITableViewData
                     self.ws_data = data
                     self.tableView.reloadData()
                     
+                    print(data)
+                    
                 }
-                
                 
             } else {
                 print("ERROR: \(status_code)")
@@ -86,6 +88,7 @@ class HomeViewController: UIViewController ,UITableViewDelegate, UITableViewData
         if let company = item["company"] as? String {
             cell.company_label.text = company
         }
+    
         
         if let position =  item["position"] as? String {
             cell.position_label.text = position
