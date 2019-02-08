@@ -51,7 +51,7 @@ class HomeViewController: UIViewController ,UITableViewDelegate, UITableViewData
             // request válido
             if status_code == 200 {
                 
-                
+                //holis
                 if let data = response as? [[String: AnyObject]] {
                    
                     self.ws_data = data
